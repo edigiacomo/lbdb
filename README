@@ -189,6 +189,11 @@ m_mu
        timestamp value and MU_PERSONAL to "yes" or "true" to filter
        the results.
 
+m_notmuch
+       This module uses the program notmuch (https://notmuchmail.org/)
+       to search addresses in messages. This module needs jq
+       (https://stedolan.github.io/jq/) to parse the results.
+
 Feel free to create your own modules to query other kinds of
 databases.  m_finger should be a good example of how to do it.
 

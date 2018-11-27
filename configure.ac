@@ -181,6 +181,7 @@ LBDB_ARG_WITH(EVOLUTION_ADDRESSBOOK_EXPORT, evolution-addressbook-export,
               m_evolution, [with Evolution support ('auto' searchs at runtime)])
 LBDB_ARG_WITH(KHARD, khard, m_khard, [with khard support])
 LBDB_ARG_WITH(MU, mu, m_mu, [with mu (maildir-utils) support])
+LBDB_ARG_WITH(NOTMUCH, notmuch, m_notmuch, [with notmuch support])
 
 AC_PATH_PROG(PERL, perl, "no")
 if test "x$PERL" != xno ; then

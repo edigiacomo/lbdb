@@ -332,6 +332,13 @@ remember to invoke
 .BR mu-index (1)
 with
 .IR --my-address )
+.TP
+.B m_notmuch
+This module uses the program
+.BR notmuch-address (1)
+to search addresses in messages. This module needs
+.BR jq (1)
+to parse the results.
 .PP
 Feel free to create your own modules to query other database resources,
 YP maps, and the like.
